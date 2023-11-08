@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;  
+}
+body {
+    background-color: darkgreen;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    margin-top: 90px;
+    margin-right: 0px;
+    margin-left: 516px;
+}
+.titulo h1{
+    font-size: 68px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: wheat;
+}
+.form-group  {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+label {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input {
+    width: 200px; /* Ancho del input */
+    height: 30px; /* Altura del input */
+    border: 2px solid #333; /* Borde del input */
+    border-radius: 5px; /* Bordes redondeados del input */
+    padding: 5px; /* Espacio interno del input */
+    font-size: 14px; /* Tamaño de fuente del input */
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    width: 150px; /* Ancho del botón */
+    height: 40px; /* Altura del botón */
+    background-color: #008CBA; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Bordes redondeados del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+input[type="submit"]:hover {
+    background-color: #005F7F; /* Cambia el color de fondo al pasar por encima del botón */
+}
+.botones {
+    margin-top: 40px;
+    margin-left: 15px;
+}
+button {
+    width: 160px; /* Ancho del botón */
+    height: 20px; /* Altura del botón */
+    background-color: #dae3e6; /* Color de fondo del botón */
+    color: black; /* Color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Bordes redondeados del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    margin-top: 35px;
+    margin-left: 10px;
+} 
+button:hover {
+    background-color: #005F7F; /* Cambia el color de fondo al pasar por encima del botón */
+}
